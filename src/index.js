@@ -12,7 +12,7 @@ root.render(
       <BrowserRouter>
       <App/>
       <Routes>
-        <Route path="/" element={<ChallengePage />} />
+        <Route path="/RockPaperScissor" element={<ChallengePage />} />
         <Route path="GamePage" element={<GamePage />} />
       </Routes>
       </BrowserRouter>
