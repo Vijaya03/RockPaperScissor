@@ -1,0 +1,18 @@
+.HeadCard{
+    width:60vw;
+    max-height: 200px;
+    display: flex;
+    justify-content:space-between;
+    color:white;
+    border:2px solid var(--HeaderOutline);
+    align-items: center;
+    margin-top:1.5rem;  
+    border-radius:10px;
+}
+
+@media only screen and (max-width: 500px) {
+    .HeadCard{
+        width:calc(100% - 80px);
+        max-height: 130px;
+    }
+}

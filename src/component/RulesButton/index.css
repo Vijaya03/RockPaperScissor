@@ -1,0 +1,113 @@
+.btn-rules-space{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom:5px;
+    padding-right:36px;
+    height:50px;
+}
+.btn-rules{
+    cursor: pointer;
+    width:100px;
+    height:30px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius:6px;
+    text-transform: uppercase;
+    color:white;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    font-size:12px;
+    padding:5px 10px 5px 10px ;
+    
+}
+.btn-rules:hover{
+    background: white;
+    color:black;
+}
+.rules-block{
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    border-radius:10px;
+    height:450px;
+    width:400px;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    z-index:100;
+    transform: translate(-50%,-50%)
+}
+.rule_modal_header{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+}
+.rules_header{
+    text-transform: uppercase;
+    font-size:20px;
+    font-weight:700;
+    color:var(--RadialGradientDark);
+}
+.rules_image_container{
+    display: flex;
+    width:100%;
+    height:100%;
+    justify-content: center;
+    align-items: center
+}
+.rules_close{
+    cursor: pointer;
+}
+.rules_image{
+    margin: 30px;
+    width:100%;
+    height:100%;
+    background: url("../../images/image-rules-bonus.svg") no-repeat;
+}
+@media only screen and (max-width: 500px) {
+    .rules-block{
+        top:0;
+        left:0;
+        height:100vh;
+        width:100vw;
+        transform: translate(0,0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .rules_close{
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 50px;
+    }
+    .rule_modal_header {
+        justify-content: center;
+        align-items: center
+    }
+    .rules_header{
+        font-size: 40px;
+
+    }
+    .rules_image{
+        width: calc( 100% - 139px);
+        height: calc(100% - 187px);
+    }
+    .btn-rules-space{
+        justify-content: center;
+        align-items: center;
+        margin-top:100px;
+        margin-bottom:50px;
+        width:100%;
+        height:200px;
+        padding-right:0;
+        padding-bottom:50px
+    }
+    .btn-rules{
+        width:120px;
+        height:40px;
+        font-size:16px;
+        
+       
+    }
+}

@@ -1,0 +1,36 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 8px 40px 8px 40px;
+    margin-right:20px;
+    border-radius: 5px;
+    gap:0
+}
+.score{
+    text-transform: uppercase;
+    color:var(--ScoreText);
+    font-weight: 600;
+    font-size:12px;
+    letter-spacing: 2px;
+    margin:0;
+    padding:0;
+}
+.score_count{
+    color:var(--DarkText);
+    font-weight: 700;
+    /* max-height:3rem; */
+    font-size:3rem;
+    margin:0;
+    padding:0;
+}
+@media only screen and (max-width: 500px) {
+    .card{
+        padding: 5px 20px 2px 20px;
+    }
+    .score_count{
+        font-size:2rem;
+    }
+}
