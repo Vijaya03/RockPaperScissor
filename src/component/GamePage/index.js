@@ -3,7 +3,7 @@ import './index.css';
 const GamePage = ()=>{
  return (
      <div className="GamePage">
-     GamePage
+         GamePage
      </div>
  )
 }
