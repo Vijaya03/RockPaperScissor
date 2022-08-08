@@ -7,7 +7,7 @@ const RulesButton = ()=>{
      <div className="btn-rules-space">
          <button className="btn-rules" onClick={()=>setRules(!rules)}>rules</button>
          <div 
-            style={{display: rules ? "flex" : "none" }}
+            style={{display: rules ? "block" : "none" }}
             className="rules-block"
         >
             <div className="rule_modal_header">

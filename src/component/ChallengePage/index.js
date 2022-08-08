@@ -26,9 +26,6 @@ const ChallengePage = ()=>{
            <Coins  index="4" name="lizard" color="--LizardGradient"title="lizard-section"/>
            <Coins  index="5" name="rock" color="--RockGradient"title="rock-section"/>
           </div>
-     {/* <button onClick={()=>{
-          navigate("/GamePage");
-      }}> navigate</button> */}
     
      </div>
  )

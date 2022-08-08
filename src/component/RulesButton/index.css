@@ -90,7 +90,7 @@
 
     }
     .rules_image{
-        width: calc( 100% - 139px);
+        width: 100%;
         height: calc(100% - 187px);
     }
     .btn-rules-space{

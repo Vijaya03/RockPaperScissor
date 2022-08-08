@@ -6,17 +6,21 @@ import { BrowserRouter,Routes,Route, } from "react-router-dom";
 import GamePage from './component/GamePage';
 import ChallengePage from './component/ChallengePage';
 import RulesButton from './component/RulesButton';
+import { Provider } from "react-redux";
+import store from "./store";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <BrowserRouter>
-      <App/>
-      <Routes>
-        <Route path="/RockPaperScissor" element={<ChallengePage />} />
-        <Route path="GamePage" element={<GamePage />} />
-      </Routes>
-      </BrowserRouter>
-      <RulesButton/>
+        <Provider store={store}>
+          <BrowserRouter>
+          <App/>
+          <Routes>
+            <Route path="/RockPaperScissor" element={<ChallengePage />} />
+            <Route path="GamePage" element={<GamePage />} />
+          </Routes>
+          </BrowserRouter>
+          <RulesButton/>  
+      </Provider >
   </React.StrictMode>
 );
 

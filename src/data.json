@@ -1,0 +1,33 @@
+
+    [
+       { 
+            "color": "--ScissorsGradient",
+            "index": "1",
+            "name": "scissors",
+            "title": "scissors-section"
+        }
+        ,
+        {
+            "color": "--Cyan",
+            "index": "2",
+            "name": "spock",
+            "title": "spock-section"
+        },
+        {
+            "color": "--PaperGradient",
+            "index": "3",
+            "name": "paper",
+            "title": "paper-section"    
+        },
+        {
+            "color": "--LizardGradient",
+            "index": "4",
+            "name": "lizard",
+            "title": "lizard-section"
+        },
+        {   "color": "--RockGradient",
+            "index": "5",
+            "name": "rock",
+            "title": "rock-section"
+        }
+    ]
